@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+  }
+
+body{
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1{
+    font-family: Poppins;
+    color: white;
+}
+p{
+    color: white;
+}
+
+.container-fluid{
+    height: 500px;
+    border-radius: 5%;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    width: 60%;
+    box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.168);
+    overflow: auto;
+}
+
+.form-control {
+    color: white;
+    font-weight: bolder;
+    background-color: transparent;
+    border-radius: 20px;
+}
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.btn{
+    border-radius: 20px;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: transparent;
+    box-shadow: 0 0 0 1px rgba(145, 13, 253, 0.25);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+i{
+    color: white;
+    top: -5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DFE9EB;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #0b2949cd;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #103A67;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #103A67;
+  }
+  

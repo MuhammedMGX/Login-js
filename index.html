@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<div class="d-flex flex-column justify-content-center align-items-center vh-100">
+    <div class="container-fluid p-5">
+
+        <h1 class="text-center mb-5">Login</h1>
+
+        
+        <div id="incorrect" class="alert alert-warning d-none">Incorrect email or password</div>
+
+        <div class="mb-3">
+            <input type="email" class="form-control my-4" id="emailInputIn" placeholder="Enter your email">
+        </div>
+
+        <div class="mb-3 position-relative">
+            <i class="position-absolute passInputIn eye p-3 fa-solid fa-eye"></i>
+            <input type="password" class="form-control" id="passInputIn" placeholder="Enter your password">
+        </div>
+
+        <button type="button" class="btn btn-outline-light w-100 my-4 text-center" id="loginBtn">Login</button>
+        <p class="text-center">Don’t have an account? <a href="pages/signUp.html">Sign Up</a></p>
+
+    </div>
+
+</div>
+
+
+
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/login-script.js" type="module"></script>
+    
+</body>
+</html>
